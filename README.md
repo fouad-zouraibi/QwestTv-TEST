@@ -1,40 +1,48 @@
-# QwestTv-TEST
-Overview
+## QwestTv-TEST
+# Overview
 
 This is a full-stack project that combines a Node.js back-end with TypeScript and a React.js front-end. It's designed to showcase a simple but functional application for creating, managing, and downloading files. The back-end handles the file creation and management, while the front-end offers a user-friendly interface for users to interact with the files.
-Back-end Features (Node.js with TypeScript)
 
-    File Creation Route:
-        A route to create a file by specifying the file type (csv, xml, or excel) and the desired file name.
-        The route fetches data from a mock API, specifically, JSONPlaceholder.
-        The data is then populated into the file as per the requested type (csv, xml, or excel).
+# Back-end Features (Node.js with TypeScript)
 
-    File Listing Route:
-        A route to retrieve and list all the files that have been created by users.
+If you want to use your own Postman you can find below the routes with examples, if you dont wanna run it in an easy way use this link : https://documenter.getpostman.com/view/29430084/2s9YR9aDcr .
 
-    File Download Route:
-        A route to allow users to download the files they've created.
+    Route GET to create a file :
 
-    File Deletion Route:
-        A route to enable users to delete files that are no longer needed.
+        http://localhost:3000/file/create/:name/:type
+            Exemple :  http://localhost:3000/file/create/fouad/csv
 
-Front-end Features (React.js)
+    Route GET to list all the files :
+            http://localhost:3000/file/list
 
-    File Management Page:
-        Displays a list of all existing files.
-        Provides options to either download or delete files.
-    File Creation Form:
-        A user-friendly form for creating new files.
-        Users can specify the file type (csv, xml, or excel) and the desired file name.
+    Route GET to download a file :
+            http://localhost:3000/file/download/:filename
+            Exemple :  http://localhost:3000/file/download/fouad.csv
 
-Getting Started
+    Route DELETE to delete a file :
+            http://localhost:3000/file/delete/:filename
+            Exemple :  http://localhost:3000/file/delete/fouad.csv
 
-Instructions on how to get your project up and running are included in the installation guide.
-Usage
+# Front-end Features (React.js)
 
-Describe how the project can be used. Provide information about how to use the back-end routes and interact with the front-end user interface.
-Technologies Used
+    It's just a basic frontend, that let us create or delete or download a file (You can find the code in Home.js under pages directory)
 
+# Getting Started
+
+To run the project please clone the project in your directory of choice, then open it your terminal and run it using the following commands :
+    For the backend :
+    cd backend
+    npm i
+    npm run dev
+    
+    For the frontend in the same terminal: 
+    cd .. 
+    cd frontend
+    npm i
+    npm start
+    Then press enter for he warning
+
+This project was created by these techs : 
     Node.js
     TypeScript
     React.js
@@ -45,23 +53,4 @@ Technologies Used
     xmlbuilder
     ExcelJS
 
-Project Structure
 
-Briefly explain the structure of your project, including the key folders and files.
-Examples
-
-Include usage examples and screenshots to demonstrate how to use the application and its features.
-Contributing
-
-Explain how other developers can contribute to your project, including information about how to submit issues and pull requests.
-License
-
-Specify the license under which the project is released, and include a link to the license file.
-Acknowledgments
-
-Optionally, you can give credit to people, libraries, or resources that have helped you along the way.
-Author
-
-Provide your name and contact information for any inquiries.
-
-Feel free to customize this presentation according to your project's specific details and requirements.
