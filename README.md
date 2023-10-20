@@ -10,18 +10,18 @@ If you want to use your own Postman you can find below the routes with examples,
 Route GET to create a file :
 
         http://localhost:3000/file/create/:name/:type
-            Exemple :  http://localhost:3000/file/create/fouad/csv
+        Exemple :  http://localhost:3000/file/create/fouad/csv
 
 Route GET to list all the files :
-            http://localhost:3000/file/list
+        ttp://localhost:3000/file/list
 
 Route GET to download a file :
-            http://localhost:3000/file/download/:filename
-            Exemple :  http://localhost:3000/file/download/fouad.csv
+        http://localhost:3000/file/download/:filename
+        Exemple :  http://localhost:3000/file/download/fouad.csv
 
 Route DELETE to delete a file :
-            http://localhost:3000/file/delete/:filename
-            Exemple :  http://localhost:3000/file/delete/fouad.csv
+        http://localhost:3000/file/delete/:filename
+        Exemple :  http://localhost:3000/file/delete/fouad.csv
 
 # Front-end Features (React.js)
 
