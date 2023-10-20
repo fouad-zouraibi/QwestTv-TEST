@@ -1,9 +1,9 @@
-## QwestTv-TEST
-# Overview
+# QwestTv-TEST
+## Overview
 
 This is a full-stack project that combines a Node.js back-end with TypeScript and a React.js front-end. It's designed to showcase a simple but functional application for creating, managing, and downloading files. The back-end handles the file creation and management, while the front-end offers a user-friendly interface for users to interact with the files.
 
-# Back-end Features (Node.js with TypeScript)
+## Back-end Features (Node.js with TypeScript)
 
 If you want to use your own Postman you can find below the routes with examples, if you dont wanna run it in an easy way use this link : https://documenter.getpostman.com/view/29430084/2s9YR9aDcr .
 
@@ -26,11 +26,11 @@ Route DELETE to delete a file :
         http://localhost:3000/file/delete/:filename
         Exemple :  http://localhost:3000/file/delete/fouad.csv
 
-# Front-end Features (React.js)
+## Front-end Features (React.js)
 
 It's just a basic frontend, that let us create or delete or download a file (You can find the code in Home.js under pages directory)
 
-# Getting Started
+## Getting Started
 
 To run the project please clone the project in your directory of choice, then open it your terminal and run it using the following commands :
 
