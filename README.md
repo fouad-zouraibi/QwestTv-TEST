@@ -7,40 +7,43 @@ This is a full-stack project that combines a Node.js back-end with TypeScript an
 
 If you want to use your own Postman you can find below the routes with examples, if you dont wanna run it in an easy way use this link : https://documenter.getpostman.com/view/29430084/2s9YR9aDcr .
 
-    Route GET to create a file :
+Route GET to create a file :
 
         http://localhost:3000/file/create/:name/:type
             Exemple :  http://localhost:3000/file/create/fouad/csv
 
-    Route GET to list all the files :
+Route GET to list all the files :
             http://localhost:3000/file/list
 
-    Route GET to download a file :
+Route GET to download a file :
             http://localhost:3000/file/download/:filename
             Exemple :  http://localhost:3000/file/download/fouad.csv
 
-    Route DELETE to delete a file :
+Route DELETE to delete a file :
             http://localhost:3000/file/delete/:filename
             Exemple :  http://localhost:3000/file/delete/fouad.csv
 
 # Front-end Features (React.js)
 
-    It's just a basic frontend, that let us create or delete or download a file (You can find the code in Home.js under pages directory)
+It's just a basic frontend, that let us create or delete or download a file (You can find the code in Home.js under pages directory)
 
 # Getting Started
 
 To run the project please clone the project in your directory of choice, then open it your terminal and run it using the following commands :
-    For the backend :
-    cd backend
-    npm i
-    npm run dev
+
+For the backend :
+
+        cd backend
+        npm i
+        npm run dev
     
-    For the frontend in the same terminal: 
-    cd .. 
-    cd frontend
-    npm i
-    npm start
-    Then press enter for he warning
+For the frontend in the same terminal: 
+
+        cd .. 
+        cd frontend
+        npm i
+        npm start
+        Then press enter for he warning
 
 This project was created by these techs : 
     Node.js
