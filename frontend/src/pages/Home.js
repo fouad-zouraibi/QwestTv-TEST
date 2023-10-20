@@ -21,7 +21,7 @@ export default function Home() {
       });  
     };
   const telecharger = (file)=>{
-    var [fileName,ext] = file.split(".");    
+    var [fileName] = file.split(".");    
     axios.get(`http://localhost:3000/file/download/${file}`,{responseType: 'blob'}).then((res) => {
         const files = res.data;
         const href = window.URL.createObjectURL(res.data);
