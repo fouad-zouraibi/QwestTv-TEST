@@ -5,7 +5,7 @@ This is a full-stack project that combines a Node.js back-end with TypeScript an
 
 ## Back-end Features (Node.js with TypeScript)
 
-If you want to use your own Postman you can find below the routes with examples, if you dont wanna run it in an easy way use this link : https://documenter.getpostman.com/view/29430084/2s9YR9aDcr .
+If you want to use your own Postman you can find below the routes with examples, if you don't, there is an easy just in your browser, use this link : https://documenter.getpostman.com/view/29430084/2s9YR9aDcr .
 
 Route GET to create a file :
 
