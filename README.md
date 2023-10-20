@@ -48,15 +48,16 @@ For the frontend in the same terminal:
         npm start
         Then press enter for he warning
 
-This project was created by these techs : 
-    Node.js
-    TypeScript
-    React.js
-    Express.js
-    Axios
-    fs (File System)
-    csv-writer
-    xmlbuilder
-    ExcelJS
+Technologies used in this project are : 
+
+        Node.js
+        TypeScript
+        React.js
+        Express.js
+        Axios
+        fs (File System)
+        csv-writer
+        xmlbuilder
+        ExcelJS
 
 
