@@ -13,13 +13,16 @@ Route GET to create a file :
         Exemple :  http://localhost:3000/file/create/fouad/csv
 
 Route GET to list all the files :
-        ttp://localhost:3000/file/list
+
+        http://localhost:3000/file/list
 
 Route GET to download a file :
+
         http://localhost:3000/file/download/:filename
         Exemple :  http://localhost:3000/file/download/fouad.csv
 
 Route DELETE to delete a file :
+
         http://localhost:3000/file/delete/:filename
         Exemple :  http://localhost:3000/file/delete/fouad.csv
 
