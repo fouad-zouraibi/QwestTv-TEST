@@ -40,9 +40,8 @@ For the backend :
         npm i
         npm run dev
     
-For the frontend in the same terminal: 
-
-        cd .. 
+For the frontend open the folder project on a different terminal : 
+ 
         cd frontend
         npm i
         npm start
